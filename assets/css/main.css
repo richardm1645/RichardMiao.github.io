@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 8rem 4rem 10rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3310,7 +3310,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 80vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3795,6 +3795,15 @@ input, select, textarea {
 			#main > .post.featured {
 				text-align: center;
 			}
+
+			#main > .post.featured.small {
+				border-top: 0;
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+				text-align: center;
+				margin-bottom: -2rem;
+			}
+
 
 			@media screen and (max-width: 1280px) {
 
