@@ -118,6 +118,7 @@ input, select, textarea {
 	.stack-post {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		padding-top: 1em;
 	}
 
@@ -128,6 +129,8 @@ input, select, textarea {
 	.logo {
 		max-height: 50px;
 	}
+
+
 
 /* Type */
 
