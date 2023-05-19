@@ -113,6 +113,22 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+	/* Tech stacks */
+	.stack-post {
+		display: flex;
+		flex-direction: row;
+		padding-top: 1em;
+	}
+
+	.stack-label {
+		padding-right: 1em;
+	}
+
+	.logo {
+		max-height: 50px;
+	}
+
 /* Type */
 
 	html {
